@@ -1,0 +1,10 @@
+name: Dir
+main: net.clonecomputers.lab.dir.Dir
+version: 1.0
+commands:
+  dir:
+      description: Print out the direction the player is facing
+      usage: /dir [playername]
+      permission: dir.command
+      permission-message: You don't have permission to use /dir
+      
